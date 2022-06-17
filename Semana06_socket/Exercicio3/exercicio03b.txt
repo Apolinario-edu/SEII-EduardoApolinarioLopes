@@ -1,0 +1,7 @@
+Questão 3, letra b.  
+
+1) O limite de bytes a serem enviados por pacotes TCP e UDP é de 60KB.
+
+2) Para um arquivo grande ser transmitido via internet podemos dividir o conteúdo da mensagem em varios pacotes e enviar esse pacotes através de uma decodificação padrão otimizando o envio dos dados.
+
+3) As principais diferenças notadas são que o protocolo TCP trata os dados de uma forma mais segura permitindo que se alguma informação for perdida o protocolo retorna a envia os dados garantindo que o arquivo seja entregue sem que ocorram perdas. No caso do protocolo UDP não é possível recuperar informações perdidas e oque acontece é que é entregue uma mensagem incompleta.
